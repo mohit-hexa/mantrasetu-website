@@ -20,7 +20,7 @@ export default function Footer() {
               className="h-10 w-10 sm:h-12 sm:w-12 scale-150 md:scale-200"
             />
           </div>
-          <p className="text-left md:text-center text-[8px] sm:text-lg lg:text-[23px] font-[Source_Serif_Pro] leading-[10px] sm:leading-7 lg:leading-[24px] mt-2 sm:mt-8 lg:mt-10">
+          <p className="text-left text-[8px] sm:text-lg lg:text-[23px] font-[Source_Serif_Pro] leading-[10px] sm:leading-7 lg:leading-[24px] mt-2 sm:mt-8 lg:mt-10">
             From birth to wedding to spiritual cleansing every Hindu ritual has
             deep meaning. But finding a qualified, trustworthy pandit can be a
             challenge. That’s where we step in. <br />
