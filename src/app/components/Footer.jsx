@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="mt-16 text-black relative overflow-hidden">
+    <footer className="mt-4 md:mt-16 text-black relative overflow-hidden">
       {/* Subtle pattern overlay */}
       <div
         aria-hidden="true"
@@ -12,7 +12,8 @@ export default function Footer() {
 
       <div className="relative z-10 container mx-auto px-4 sm:px-6 py-4 md:py-10 sm:py-12 flex md:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-12">
         {/* Left - Logo + Description */}
-        <div className="lg:col-span-6 sm:col-span-2 text-center lg:text-left">
+        <div
+         className="lg:col-span-6 sm:col-span-2 text-center lg:text-left">
           <div className="inline mx-auto lg:mx-0 h-16 w-16 sm:h-20 sm:w-20 rounded-full md:grid place-items-center text-white font-bold text-lg mb-4">
             <img
               src="/logo.svg"

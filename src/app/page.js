@@ -152,13 +152,14 @@ export default function Page() {
       </section>
 
       {/* Find Pandit Ji */}
-      <section className="container mx-auto px-4 py-12" id="pandit">
+      <section className="container mx-auto px-2.5 md:px-4 py-3 md:py-12" id="pandit">
         <SectionHeading
           title="Find Pandit Ji"
           hrefLabel="View all →"
           href="#"
         />
-        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="mt-8 grid grid-cols-2 md:grid-cols-4
+         sm:grid-cols-2 gap-5 md:gap-6">
           {pandits.map((p) => (
             <PanditCard key={p.name} {...p} />
           ))}
@@ -167,9 +168,9 @@ export default function Page() {
 
           <Hero2 />
       {/* Why Choose Us */}
-      <section className="container mx-auto px-4 py-12" id="why-us">
+      <section className="container mx-auto px-4 py-3 md:py-12" id="why-us">
         <SectionHeading title="Why Choose Us" />
-        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="mt-8 grid grid-cols-2 md:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-2 md:gap-6">
           {whyUs.map((w) => (
             <WhyUsCard key={w.title} {...w} />
           ))}
@@ -178,11 +179,12 @@ export default function Page() {
 
       {/* Tools */}
       <section
-        className="container mx-auto px-4 py-12 bg-white rounded-3xl"
+        className="container mx-auto px-4 pb-10 pt-3 md:py-12 bg-white rounded-3xl"
         id="tools"
       >
         <SectionHeading title="MantraSetu Tools" />
-        <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-y-24 md:gap-x-20 ">
+        <div className="mt-4 grid grid-cols-2 md:grid-cols-4 gap-y-14 gap-4 md:gap-y-24 md:gap-x-20 ">
+
           {toolCards.map((t, ind) => (
             <ToolsCard key={ind} title={t.title} image={t.image} />
           ))}
@@ -190,9 +192,9 @@ export default function Page() {
       </section>
 
       {/* Spiritual Library */}
-      <section className="container mx-auto px-4 py-12" id="library">
+      <section className="container mx-auto px-4 py-4 md:py-12" id="library">
         <SectionHeading title="MantraSetu Spiritual Library" />
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="mt-4 md:mt-8 grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 md:gap-14 gap-4 sm:gap-6 justify-items-center">
           {mantraSetu.map((i, index) => (
             <MantraSetu key={index} src={i.image} title={i.title} frame="" desc={i.desc} />
           ))}

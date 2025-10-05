@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function ToolsCard({ title, image }) {
   return (
-    <div className="relative h-[72px] sm:h-[80px] w-full md:w-[230px] rounded-2xl border-2 border-[#ff7916] bg-white">
+    <div className="grid place-items-center md:block relative h-[72px] sm:h-[80px] w-full md:w-[230px] rounded-2xl border-2 border-[#ff7916] bg-white">
       {/* Title */}
-      <p className="text-[15px] sm:text-[17px] mt-3 mx-3 text-center font-semibold text-black leading-[22px] sm:leading-[24px]">
+      <p className="text-[12px] md:text-[15px] sm:text-[17px] md:mt-3 mx-3 text-center font-semibold text-black md:leading-[22px] leading-[14px]  sm:leading-[24px]">
         {title}
       </p>
 
