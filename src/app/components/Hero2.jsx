@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero2() {
   return (
     <section
-      className="relative bg-cover bg-center text-black  my-4 sm:my-16 md:my-20"
+      className="relative bg-cover bg-center text-black my-4 sm:my-16 md:my-20 md:mt-32 mt-10"
       style={{ backgroundImage: "url(/assets/hero2_bg.jpg)" }}
     >
       <div className="w-[70px] h-[70px] md:w-[250px] md:h-[250px] absolute top-[-30px] md:top-[-120px] sm:block">

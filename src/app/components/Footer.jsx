@@ -14,7 +14,7 @@ export default function Footer() {
         {/* Left - Logo + Description */}
         <div
          className="lg:col-span-6 sm:col-span-2 text-center lg:text-left">
-          <div className="inline mx-auto lg:mx-0 h-16 w-16 sm:h-20 sm:w-20 rounded-full md:grid place-items-center text-white font-bold text-lg mb-4">
+          <div className="inline mx-auto lg:mx-0 h-16 w-16 sm:h-20 sm:w-20 rounded-full md:grid place-items-center text-white font-bold text-lg mb-4 scale-150">
             <img
               src="/logo.svg"
               alt="MantraSetu"
